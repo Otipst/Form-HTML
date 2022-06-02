@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Tugas form</title>
+    </head>
+
+    <body>
+        <h1>Pendaftaran</h1>
+
+        <form action="" method="POST">
+        <table>
+                <tr>
+                    <td width="120">Nama</td>
+                    <td><input type="text" required> </td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" placeholder="contoh@gmail.com" required> </td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" placeholder="password" required> </td>
+                </tr>
+                <tr>
+                    <td>Semester</td>
+                    <td><input type="number" placeholder="1-8" min="1" max="8" step="1" required> </td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td><input type="radio" name="jk" required> Laki-Laki
+                        <input type="radio" name="jk" required> Perempuan </td>
+                </tr>
+                <tr>
+                    <td>Tanggal Lahir</td>
+                    <td><input type="date" min="2004-6-2" required> </td>
+                </tr>
+                <tr>
+                    <td>Agama</td>
+                    <td><select>
+                        <option value="">Islam</option>
+                        <option value="">Katolik</option>
+                        <option value="">Protestan</option>
+                        <option value="">Hindu</option>
+                        <option value="">Buddha</option>
+                        <option value="">Konghucu</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Alamat</td>
+                    <td><textarea name="alamat" id="" cols="30" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td><input type="submit"></td>
+                </tr>
+        </table>
+        </form>
+    </body>
+</html>
